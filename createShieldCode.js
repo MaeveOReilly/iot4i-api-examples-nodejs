@@ -45,7 +45,7 @@ var createShieldCode = function(shieldCode) {
       console.warn("\tCreate shield code failed. Reason is: " + response.statusCode);
     }
     else {
-      console.log("Succesfully created shield code " + shieldCode.id);
+      console.log("Successfully created shield code " + shieldCode.shieldUUID);
     }
 
     if (body) {
